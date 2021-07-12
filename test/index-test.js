@@ -15,7 +15,7 @@ describe('#binarySearchTwoSum', function() {
 })
 
 describe('#binaryMatch', function() {
-	it("returns true when a match is found", function() {
+	it("returns a when a match is found", function() {
 		let missingNum = 6
 		let sortedArray = [2, 3, 3, 4, 6, 7]
 		expect(binaryMatch(sortedArray, missingNum)).toEqual(true)
